@@ -1,0 +1,48 @@
+.content {
+    box-sizing: border-box;
+    width: calc(100% - 226px);
+    float: right;
+    min-height: calc(100vh - 50px);
+    transition: width 0.5s;
+  
+}
+.minContent { 
+    width: calc(100% - 226px + 176px);
+    transition: width 0.5s;
+ 
+}
+
+
+.content__left {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content__header {
+    display: flex;
+}
+
+.content__future {
+    display: flex;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+#content-trangchu 
+{
+    background-image: url('../../assets/img/logo.png');
+    background-size: cover;
+}
+.content .input-form
+{
+    margin: 10px 0;
+}
+.content .input-form label 
+{
+    margin: 10px 0;
+    font-weight: 700;
+}
+.content button 
+{
+    margin: 20px 0;
+}

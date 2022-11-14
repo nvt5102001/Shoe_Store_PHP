@@ -1,0 +1,54 @@
+.menu{
+    float: left;
+    width: 226px;
+    height: calc(100vh - 50px);
+    border-right: solid 1px #ccc;
+    box-sizing: border-box; 
+    transition: width 0.5s;
+ 
+}
+
+.minMenu { width: 50px;transition: width 0.5s; }
+
+.menu__item {
+    font-family: Font Regular;
+    cursor: pointer;
+    display: flex;
+    height: 44px;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+}
+.menu__item:hover {
+    background-color: #e5e5e5;
+    font-family: Font Medium;
+}
+.menu__focus {
+    pointer-events: none;
+    background-color: rgb(87, 87, 87);
+    
+}
+.menu__focus a 
+{
+    color: #ffffff !important;
+}
+
+
+.menu__item .menu__icon {
+    flex-shrink: 0;
+    font-size: 18px;
+}
+.menu__text
+{
+    padding-left: 16px;  
+}
+
+.menu__icon 
+{
+    display: none;
+}
+.change_menu
+{
+    display: flex; 
+    justify-content: center;
+}

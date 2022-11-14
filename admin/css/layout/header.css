@@ -1,0 +1,91 @@
+.header {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    background-color:#aaa ;
+}
+
+.header .header__left{
+    display: flex;
+    flex-shrink: 0;
+    width: 226px;
+    height: 100%;
+    align-items: center;
+    padding-left: 16px;
+    box-sizing: border-box;
+    border-right: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+}
+
+
+
+.header .header__right {
+    display: flex;
+    align-items: center;
+    width: calc(100% - 226px);
+    height: 100%;
+    border-bottom: solid 1px #ccc;
+    box-sizing: border-box;
+    padding: 0 10%;
+    font-size: 18px;
+    
+   
+}
+
+.header .header__sibar {
+    background-image: url(../../assets/img/toggle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.header .header__sibar:hover {
+    opacity: 80%;
+}
+
+.header .header__logo {
+    background-image: url(../../assets/img/cukcuk-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 24px;
+}
+.right_restaurant{
+    position: relative;
+}
+.right_restaurant select {
+    cursor: pointer;
+    height: 24px;
+    align-items: center;
+    /* -webkit-appearance: none; */
+    /* border: none; */
+ }
+ .right_restaurant select:focus{
+    outline: none !important;
+}
+
+
+.right__center {
+    flex: 1;
+}
+
+.right__user {
+    display: flex;
+    align-items: center;
+    height: 24px;
+    justify-content: end;
+}
+
+.header__left a 
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+}
